@@ -1,0 +1,10 @@
+{
+  "event_types": ["milestone_approved", "sponsor_payment", "expense", "refund", "tax_withholding"],
+  "fund_uses": ["training", "travel", "equipment", "tax_reserve"],
+  "currencies": [
+    "CNY",
+    "HKD",
+    "USD"
+  ],
+  "quantity_precision": 6
+}
