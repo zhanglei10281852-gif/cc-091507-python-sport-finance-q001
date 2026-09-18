@@ -1,10 +1,27 @@
 {
-  "event_types": ["milestone_approved", "sponsor_payment", "expense", "refund", "tax_withholding"],
+  "event_types": [
+    "milestone_approved",
+    "sponsor_payment",
+    "expense",
+    "refund",
+    "tax_withholding",
+    "athlete_registered",
+    "contract_registered",
+    "contract_amended",
+    "reversal",
+    "fx_adjustment",
+    "snapshot_published",
+    "task_created",
+    "task_resolved"
+  ],
   "fund_uses": ["training", "travel", "equipment", "tax_reserve"],
   "currencies": [
     "CNY",
     "HKD",
     "USD"
   ],
-  "quantity_precision": 6
+  "quantity_precision": 6,
+  "entry_buckets": ["received", "used", "fx_difference"],
+  "alert_kinds": ["low_balance", "negative_balance"],
+  "task_statuses": ["pending", "confirmed", "rejected"]
 }
